@@ -1,0 +1,42 @@
+.pagecrm_business {
+    background-color: #382F6D;
+    padding-bottom: 75px;
+
+}
+
+.pagecrm_business__wrapper {}
+
+.pagecrm_business__title {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.pagecrm_business__box--top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+}
+
+
+.pagecrm_business__box--bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.pagecrm_business__item {
+    min-width: 170px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px; 
+}
+
+

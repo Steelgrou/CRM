@@ -1,0 +1,37 @@
+.pagecrm_header {
+    padding-top: 10px;
+}
+
+.pagecrm_wrapper {}
+
+.pagecrm_box__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pagecrm_img img {
+    height: 16.03px;
+}
+
+.pagecrm_phone__number a {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.31px;
+    color: #fff;
+}
+
+.pagecrm_box__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagecrm_burger__menu img {
+    width: 30px;
+    height: 30px;
+}
+
+.pagecrm_search__input {}

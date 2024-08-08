@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+    background-color: #8464C0
+}
+
+.container {
+    max-width: 360px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
