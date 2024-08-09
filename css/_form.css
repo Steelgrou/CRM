@@ -39,33 +39,66 @@
 .pagecrm_form select,
 .pagecrm_form button {
     background-color: inherit;
-    border-width: 5px;
+    border-width: 2px;
+
     border-image-source: linear-gradient(147.77deg, #9400FF 14.56%, rgba(198, 79, 135, 0.83) 86.63%);
     border-image-slice: 1;
-    border-radius: 5px;
-    overflow: hidden;
-    /* Это должно помочь */
+
 
     padding: 17px 24px;
 
 }
 
-.pagecrm_form__name {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-}
-
+.pagecrm_form__name,
 .pagecrm_form__phone {
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
+
 }
 
-.pagecrm_form__select {}
+.pagecrm_form__name::placeholder,
+.pagecrm_form__phone::placeholder {
+    color: #FFFFFF;
+}
+
+
+.pagecrm_form__select option {
+    color: #FFFFFF;
+    background-color: #3E0468;
+
+}
 
 .pagecrm_form__select--item {}
 
-.pagecrm_form__message {}
+.pagecrm_form__textarea {
+    background-color: #603896;
+    border-width: 2px;
+    padding: 17px 24px;
+    border-image-source: linear-gradient(147.77deg, #9400FF 14.56%, rgba(198, 79, 135, 0.83) 86.63%);
+    border-image-slice: 1;
 
-.pagecrm_form__btn {}
+    color: #FFFFFF;
+
+}
+
+.pagecrm_form__textarea::placeholder {
+
+    opacity: 0.5;
+    color: #FFFFFF;
+
+}
+
+
+.pagecrm_form__btn {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.51px;
+    letter-spacing: -0.01em;
+
+    background-color: rgba(30, 0, 68, 1);
+
+
+
+}

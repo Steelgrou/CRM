@@ -20,6 +20,9 @@
 
 
     <link rel="stylesheet" href="css/_footer.css">
+
+
+
 </head>
 
 <body>
@@ -191,15 +194,15 @@
                         20 минут</h3>
                     <form class="pagecrm_form">
                         <input class="pagecrm_form__name" type="text" placeholder="ФИО" required>
-                        <input class="pagecrm_form__phone" type="text" placeholder="Телефон" required>
-                        <select class="pagecrm_form__select" name="" id="" required>
-                            <option class="pagecrm_form__select--item" value="">Выбери систему</option>
-                            <option class="pagecrm_form__select--item" value="">amoCRM</option>
-                            <option class="pagecrm_form__select--item" value="">Битрикс24</option>
-                            <option class="pagecrm_form__select--item" value="">Нужна помощь в выборе</option>
+                        <input class="pagecrm_form__phone" type="number" placeholder="Телефон" required>
+                        <select class="pagecrm_form__select" name="" id="yourSelectElement" required>
+                            <option class="pagecrm_form__select--item" value="1">Выбери систему</option>
+                            <option class="pagecrm_form__select--item" value="2">amoCRM</option>
+                            <option class="pagecrm_form__select--item" value="3">Битрикс24</option>
+                            <option class="pagecrm_form__select--item" value="4">Нужна помощь в выборе</option>
                         </select>
-                        <input class="pagecrm_form__message" type="text" placeholder="Напишите что вас интересует,
-                        например: Покупка лицензии amoCRM">
+                        
+                        <textarea class="pagecrm_form__textarea" name="" id="" cols="20" rows="4" placeholder="Напишите что вас интересует, например: Покупка лицензии amoCRM"></textarea>
                         <button class="pagecrm_form__btn" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
                     </form>
                 </div>

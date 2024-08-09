@@ -9,7 +9,6 @@
     font-weight: 700;
     line-height: 30px;
     letter-spacing: -0.02em;
-
 }
 
 
@@ -27,13 +26,11 @@
     font-weight: 400;
     line-height: 13.88px;
     color: #FFFFFF;
-
 }
 
 .pagecrm_subscription__info h4 {
     font-size: 20px;
     font-weight: 700;
-
     color: #CC95FF;
 }
 
@@ -42,10 +39,10 @@
 .pagecrm_subscription__cards {}
 
 .pagecrm_subscription__card {
-    
     height: 206px;
-    background-color: #211A40;
+    background-color: #422A6A;
     padding: 19px 12px;
+    border-radius: 15px;
 }
 
 .pagecrm_subscription__subtitle {
@@ -55,8 +52,14 @@
 }
 
 .pagecrm_subscription__subtitle img {
-
     position: absolute;
 }
 
-.pagecrm_subscription__btn {}
+.pagecrm_subscription__btn {
+    display: flex;
+    gap: 10;
+    align-items: center;
+    background-color: #1E0044;
+    color: #FFFFFF;
+    padding: 20px 48px;
+}
