@@ -1,6 +1,6 @@
 .pagecrm_footer__section {
     color: #131123;
-    padding: 57px 0px 75px 0px;
+    padding: 10px 0px 75px 0px;
 }
 
 .pagecrm_wrapper {
@@ -27,7 +27,23 @@
 }
 
 .pagecrm_footer__text {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.pagecrm_footer__text h3 {
     Font-weight: 400;
     Font-size: 10px;
+    line-height: 11.57px;
+    color: #FFFFFF;
+
+}
+
+.pagecrm_footer__text h4 {
+    Font-weight: 400;
+    Font-size: 10px;
+    line-height: 11.57px;
+    color: #FFFFFF;
 
 }

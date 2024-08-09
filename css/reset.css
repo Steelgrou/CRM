@@ -11,9 +11,19 @@ body {
     background-color: #8464C0
 }
 
+.background {
+    background: linear-gradient(
+        to right, 
+        rgb(20, 70, 70), 
+        rgb(215, 149, 255), 
+        rgb(176, 26, 201), 
+        rgb(35, 44, 78), 
+        rgb(168, 25, 255)
+    );
+}
+
 .container {
     max-width: 360px;
     padding: 0 10px;
     margin: 0 auto;
 }
-
