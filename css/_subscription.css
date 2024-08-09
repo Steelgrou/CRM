@@ -1,0 +1,62 @@
+.pagecrm_subscription__section {
+    padding-bottom: 75px;
+}
+
+.pagecrm_subscription__title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+
+}
+
+
+.pagecrm_subscription__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #502185;
+    border-radius: 10px;
+    padding: 18px 10px;
+}
+
+.pagecrm_subscription__info h3 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.88px;
+    color: #FFFFFF;
+
+}
+
+.pagecrm_subscription__info h4 {
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #CC95FF;
+}
+
+.pagecrm_subscription__wrapper {}
+
+.pagecrm_subscription__cards {}
+
+.pagecrm_subscription__card {
+    
+    height: 206px;
+    background-color: #211A40;
+    padding: 19px 12px;
+}
+
+.pagecrm_subscription__subtitle {
+    background-image: url(/img/check-shape.svg);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.pagecrm_subscription__subtitle img {
+
+    position: absolute;
+}
+
+.pagecrm_subscription__btn {}

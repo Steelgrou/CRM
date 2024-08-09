@@ -1,32 +1,130 @@
 .pagecrm_ourcases__section {
+    padding-bottom: 75px;
 }
+
 .pagecrm_ourcases__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fFFFFF;
 }
+
 .pagecrm_ourcases__subtitle {
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #E4AEFF;
+    padding-bottom: 45px;
+
 }
-.pagecrm_ourcases__wrapper {
-}
+
+.pagecrm_ourcases__wrapper {}
+
 .pagecrm_ourcases__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
 .pagecrm_ourcases__card {
+    display: flex;
+    flex-direction: column;
+
 }
+
 .pagecrm_ourcases__card--info {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    padding: 33px;
+    background-color: #47246D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px #D795FF80;
+
 }
+
 .pagecrm_ourcases__card--img {
     position: relative;
     background-image: url(/img/ourcases-first-card-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 185px;
     width: 100%;
-    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+
+
+
 }
 
-.pagecrm_ourcases__card--img img{
+.pagecrm_ourcases__card--img img {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
 }
+
+.pagecrm_ourcases__card--city {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #D095FF;
+
+
+}
+
 .pagecrm_ourcases__card--title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.6px;
+    color: #fFFFFF;
 }
+
 .pagecrm_ourcases__card--subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    color: #fFFFFF;
+
 }
+
 .pagecrm_ourcases__card--desc {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.4px;
+    color: #CF95FF;
+
 }
+
 .pagecrm_ourcases__card--btn {
+    display: block;
+    
+    margin: 5px auto 0;
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.28px;
+    padding: 11px 34px;
+    border: 4px solid;
+    border-image-source: linear-gradient(240.52deg, #59F8D2 7%, rgba(116, 223, 221, 0.43) 28.48%, rgba(161, 180, 239, 0.54) 64.29%, rgba(202, 142, 255, 0.55) 96.31%);
+    border-image-slice: 1;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4C2472;
+   
+    
+
+
 }

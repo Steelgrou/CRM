@@ -1,4 +1,6 @@
-.pagecrm_clients__section {}
+.pagecrm_clients__section {
+    padding-bottom: 75px;
+}
 
 .pagecrm_clients__wrapper {
     display: flex;
