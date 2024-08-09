@@ -1,0 +1,32 @@
+.pagecrm_ourcases__section {
+}
+.pagecrm_ourcases__title {
+}
+.pagecrm_ourcases__subtitle {
+}
+.pagecrm_ourcases__wrapper {
+}
+.pagecrm_ourcases__cards {
+}
+.pagecrm_ourcases__card {
+}
+.pagecrm_ourcases__card--info {
+}
+.pagecrm_ourcases__card--img {
+    position: relative;
+    background-image: url(/img/ourcases-first-card-bg.svg);
+    width: 100%;
+    z-index: 1000;
+}
+
+.pagecrm_ourcases__card--img img{
+    position: absolute;
+}
+.pagecrm_ourcases__card--title {
+}
+.pagecrm_ourcases__card--subtitle {
+}
+.pagecrm_ourcases__card--desc {
+}
+.pagecrm_ourcases__card--btn {
+}

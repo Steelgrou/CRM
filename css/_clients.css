@@ -1,7 +1,13 @@
 .pagecrm_clients__section {}
 
 .pagecrm_clients__wrapper {
-    padding: 14px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 17px 26px;
+    background-color: #9A7CCE;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .pagecrm_clients__title {
