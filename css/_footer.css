@@ -1,0 +1,33 @@
+.pagecrm_footer__section {
+    color: #131123;
+    padding: 57px 0px 75px 0px;
+}
+
+.pagecrm_wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.pagecrm_footer__logo {
+    padding-bottom: 38.29px;
+}
+
+.pagecrm_footer__social {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding-bottom: 21px;
+
+
+}
+
+.pagecrm_footer__text {
+    Font-weight: 400;
+    Font-size: 10px;
+
+}

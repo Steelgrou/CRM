@@ -1,0 +1,71 @@
+.pagecrm_form__section {
+    background-color: #796DC2;
+}
+
+.pagecrm_form__wrapper {
+    padding: 44px 15px;
+    border-radius: 32px;
+    background-color: #603896;
+}
+
+.pagecrm_form__title {
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #CB78FF
+}
+
+.pagecrm_form__subtitle {
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.pagecrm_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pagecrm_form input,
+.pagecrm_form select,
+.pagecrm_form button {
+    background-color: inherit;
+    border-width: 5px;
+    border-image-source: linear-gradient(147.77deg, #9400FF 14.56%, rgba(198, 79, 135, 0.83) 86.63%);
+    border-image-slice: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    /* Это должно помочь */
+
+    padding: 17px 24px;
+
+}
+
+.pagecrm_form__name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pagecrm_form__phone {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pagecrm_form__select {}
+
+.pagecrm_form__select--item {}
+
+.pagecrm_form__message {}
+
+.pagecrm_form__btn {}

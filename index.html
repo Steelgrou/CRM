@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="css/_entrance.css">
     <link rel="stylesheet" href="css/_business.css">
     <link rel="stylesheet" href="css/_partners.css">
+    <link rel="stylesheet" href="css/_form.css">
+    <link rel="stylesheet" href="css/_contacts.css">
+
+    <link rel="stylesheet" href="css/_footer.css">
 </head>
 
 <body>
@@ -95,22 +99,72 @@
         <div class="container">
             <div class="pagecrm_partners__wrapper">
                 <div class="pagecrm_partners__cards">
-                    <div class="pagecrm_partners__card">
+                    <div class="pagecrm_partners__card  pagecrm_partners__first">
                         <div class="pagecrm_partners__card--left">
                             <img src="img/partners-first-logo.svg.svg" alt="partners-first-logo">
                             <img src="img/partners-first-laptop.svg.svg" alt="partners-first-laptop">
                         </div>
 
                         <div class="pagecrm_partners__card--right">
-                            <p>Функции:</p>
+                            <h3>Функции:</h3>
                             <li>
                                 <div class="pagecrm_partners__card--checkbox">
                                     <img src="img/check.svg" alt="partners-check">
                                     <p>CRM</p>
                                 </div>
                             </li>
-                            <li>Интеграция с другими сервисами</li>
-                            <li>Онлайн-бот</li>
+                            <li>
+                                <div class="pagecrm_partners__card--checkbox">
+                                    <img src="img/check.svg" alt="partners-check">
+                                    <p> Интеграция с другими сервисами</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pagecrm_partners__card--checkbox">
+                                    <img src="img/check.svg" alt="partners-check">
+                                    <p> Онлайн-бот</p>
+                                </div>
+
+                            </li>
+
+                        </div>
+                    </div>
+
+                    <div class="pagecrm_partners__card  pagecrm_partners__second">
+                        <div class="pagecrm_partners__card--left">
+                            <img src="img/partners-second-logo.svg.svg" alt="partners-first-logo">
+                            <img src="img/partners-second-laptop.svg.svg" alt="partners-first-laptop">
+                        </div>
+
+                        <div class="pagecrm_partners__card--right">
+                            <h3>Функции:</h3>
+                            <li>
+                                <div class="pagecrm_partners__card--checkbox">
+                                    <img src="img/check.svg" alt="partners-check">
+                                    <p>CRM</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pagecrm_partners__card--checkbox">
+                                    <img src="img/check.svg" alt="partners-check">
+                                    <p>Корпоративный портал</p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="pagecrm_partners__card--checkbox">
+                                    <img src="img/check.svg" alt="partners-check">
+                                    <p>Онлайн офис</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pagecrm_partners__card--checkbox">
+                                    <img src="img/check.svg" alt="partners-check">
+                                    <p> Интеграция с другими сервисами и т.д.</p>
+                                </div>
+
+                            </li>
 
                         </div>
                     </div>
@@ -120,10 +174,67 @@
     </section>
     <!-- Partners section closed -->
 
+    <!-- Form section -->
+    <section class="pagecrm_form__section">
+        <div class="container">
+            <div class="pagecrm_form__wrapper">
+                <h2 class="pagecrm_form__title">Оставить заявку</h2>
+                <h3 class="pagecrm_form__subtitle">Выберите систему для вашего бизнеса, и мы свяжемся с Вами в течение
+                    20 минут</h3>
+                <form class="pagecrm_form">
+                    <input class="pagecrm_form__name" type="text" placeholder="ФИО" required>
+                    <input class="pagecrm_form__phone" type="text" placeholder="Телефон" required>
+                    <select class="pagecrm_form__select" name="" id="" required>
+                        <option class="pagecrm_form__select--item" value="">Выбери систему</option>
+                        <option class="pagecrm_form__select--item" value="">amoCRM</option>
+                        <option class="pagecrm_form__select--item" value="">Битрикс24</option>
+                        <option class="pagecrm_form__select--item" value="">Нужна помощь в выборе</option>
+                    </select>
+                    <input class="pagecrm_form__message" type="text" placeholder="Напишите что вас интересует,
+                    например: Покупка лицензии amoCRM">
+                    <button class="pagecrm_form__btn" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Form section closed-->
 
 
 
 
+    <!-- Contacts section-->
+    <section class="pagecrm_contacts__section">
+        <div class="container">
+            <div class="pagecrm_contacts__wrapper">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1000.2491591978811!2d30.3239987!3d59.9072768!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1723192319681!5m2!1sru!2s"
+                    class="pagecrm_contacts__location" width="330" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Contacts section closed-->
+
+    <!-- Footer section -->
+    <section class="pagecrm_footer__section">
+        <div class="container">
+            <div class="pagecrm_wrapper">
+                <div class="pagecrm_footer__logo">
+                    <img src="img/footer-logo.svg" alt="">
+                </div>
+                <div class="pagecrm_footer__social">
+                    <a href=""><img src="img/footer-vk.svg" alt="footer-vk"></a>
+                    <a href=""><img src="img/footer-telegram.svg" alt="footer-telegram"></a>
+                </div>
+                <p class="pagecrm_footer__text">© 2024 Альфа маркетинг <br>
+                    Политика конфиденциальности</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer section closed -->
 
 
 </body>
