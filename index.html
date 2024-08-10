@@ -34,20 +34,12 @@
             <div class="container">
                 <div class="pagecrm_wrapper">
                     <div class="pagecrm_box__top">
-                        <div class="pagecrm_img">
-                            <img src="img/logo.svg" alt="header-logo">
-                        </div>
-                        <div class="pagecrm_phone__number">
-                            <a href="tel:88124095222">8 812 409-52-22</a>
-                        </div>
+                        <img src="img/logo.svg" alt="header-logo">
+                        <a href="tel:88124095222">8 812 409-52-22</a>
                     </div>
                     <div class="pagecrm_box__bottom">
-                        <div class="pagecrm_burger__menu">
-                            <img src="img/burger-menu.svg" alt="burger-menu">
-                        </div>
-                        <div class="pagecrm_search__input">
-                            <input type="text">
-                        </div>
+                        <img src="img/burger-menu.svg" alt="burger-menu">
+                        <input class="pagecrm_box__bottom--input" type="text">
                     </div>
                 </div>
             </div>
@@ -195,14 +187,15 @@
                     <form class="pagecrm_form">
                         <input class="pagecrm_form__name" type="text" placeholder="ФИО" required>
                         <input class="pagecrm_form__phone" type="number" placeholder="Телефон" required>
-                        <select class="pagecrm_form__select" name="" id="yourSelectElement" required>
+                        <select class="pagecrm_form__select" name="" aria-placeholder="" id="" required>
                             <option class="pagecrm_form__select--item" value="1">Выбери систему</option>
                             <option class="pagecrm_form__select--item" value="2">amoCRM</option>
                             <option class="pagecrm_form__select--item" value="3">Битрикс24</option>
                             <option class="pagecrm_form__select--item" value="4">Нужна помощь в выборе</option>
                         </select>
-                        
-                        <textarea class="pagecrm_form__textarea" name="" id="" cols="20" rows="4" placeholder="Напишите что вас интересует, например: Покупка лицензии amoCRM"></textarea>
+
+                        <textarea class="pagecrm_form__textarea" name="" id="" cols="20" rows="4"
+                            placeholder="Напишите что вас интересует, например: Покупка лицензии amoCRM"></textarea>
                         <button class="pagecrm_form__btn" type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
                     </form>
                 </div>

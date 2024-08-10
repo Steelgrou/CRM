@@ -6,10 +6,10 @@
 
 .pagecrm_box__top {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
+    justify-content: center;
 }
+
 
 .pagecrm_img img {
     height: 16.03px;
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 17px;
 }
 
 .pagecrm_burger__menu img {
@@ -35,3 +36,7 @@
 }
 
 .pagecrm_search__input {}
+
+.pagecrm_box__bottom--input {
+    border-radius: 25px;
+}

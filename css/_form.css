@@ -54,6 +54,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
+    color: #FFFFFF;
 
 }
 
@@ -69,7 +70,9 @@
 
 }
 
-.pagecrm_form__select--item {}
+.pagecrm_form__select {
+    color: #FFFFFF;
+}
 
 .pagecrm_form__textarea {
     background-color: #603896;

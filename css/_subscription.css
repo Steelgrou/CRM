@@ -39,9 +39,25 @@
 .pagecrm_subscription__cards {}
 
 .pagecrm_subscription__card {
+   width: 102%;
+    position: relative;
     height: 206px;
     background-color: #422A6A;
     padding: 19px 12px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.pagecrm_subscription__card::before {
+    content: '';
+    background: linear-gradient(to right, black, green);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    margin: -10px;
     border-radius: 15px;
 }
 
