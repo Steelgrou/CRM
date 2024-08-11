@@ -22,6 +22,11 @@
 }
 
 
+.pagecrm_partners__card img {
+    max-width: 100%;
+}
+
+
 
 .pagecrm_partners__first .pagecrm_partners__card--left {
     gap: 0;
@@ -46,6 +51,11 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+.pagecrm_partners__card--img {
+width: 70%;
+}
+
 
 .pagecrm_partners__card--right {
     width: 50%;
