@@ -1,5 +1,5 @@
 .pagecrm_business {
-   
+
     padding-bottom: 75px;
 
 }
@@ -22,7 +22,6 @@
     align-items: center;
 }
 
-
 .pagecrm_business__box--bottom {
     display: flex;
     justify-content: space-around;
@@ -36,9 +35,9 @@
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 700;
-    line-height: 20px; 
+    line-height: 20px;
 }
 
-
-
-
+.pagecrm_business__item img {
+    width: 100%;
+}

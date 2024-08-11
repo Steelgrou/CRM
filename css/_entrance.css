@@ -24,7 +24,8 @@
 
 .pagecrm_entrance__box img {
     max-width: 100%;
-   
+    height: auto;
+
 }
 
 .pagecrm_entrance__title {
