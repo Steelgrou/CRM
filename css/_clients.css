@@ -27,6 +27,12 @@
     gap: 9px;
     align-items: center;
 
+
+}
+
+.pagecrm_clients__info img {
+    width: 40px;
+    height: 44px;
 }
 
 .pagecrm_clients__text {
@@ -34,4 +40,5 @@
     font-weight: 400;
     line-height: 20px;
     color: #FFFFFF;
+  
 }
