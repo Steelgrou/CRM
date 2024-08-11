@@ -39,5 +39,5 @@
 }
 
 .pagecrm_business__item img {
-    width: 100%;
+    max-width: 80px;
 }
