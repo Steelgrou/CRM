@@ -9,6 +9,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 12px;
+    padding-bottom: 50px;
 }
 
 .pagecrm_breadcrumb span {
@@ -21,12 +22,18 @@
     align-items: center;
 }
 
+.pagecrm_entrance__box img {
+    max-width: 100%;
+   
+}
+
 .pagecrm_entrance__title {
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: -0.02em;
     color: #fff;
+    padding-bottom: 20px;
 }
 
 .pagecrm_entrance__btn {
@@ -35,19 +42,19 @@
     padding: 10px 40px;
     border-radius: 20px;
     transition: all 0.5s ease-in-out;
-    
+
     color: #fff;
     text-transform: uppercase;
 
 
 
-  
+
     border: 2px double transparent;
     background-image: linear-gradient(rgb(175, 13, 234), rgb(13, 14, 33)), radial-gradient(circle at right top, rgb(1, 110, 218), rgb(97, 42, 91));
     background-origin: border-box;
     background-clip: padding-box, border-box;
     background-color: #9378E5;
-    
+
 
 
 }
@@ -60,4 +67,3 @@
     border: 2px solid transparent;
 
 }
-
