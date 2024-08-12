@@ -24,7 +24,7 @@
 
 <body>
 
-    <div class="background">
+    <div class="background" style="position: relative; z-index: 1;">
 
         <!-- Header section -->
         <section class="pagecrm_header">
@@ -280,8 +280,28 @@
                                 <h4>от 10 000 ₽</h4>
                             </div>
                             <div class="pagecrm_subscription__subtitle">
-                                <img src="img/check.svg" alt="subscription-check">
+                                <img class="pagecrm_subscription__check" src="img/check.svg" alt="subscription-check">
+                                <img class="pagecrm_subscription__bg" src="img/check-shape.svg" alt="">
                                 <h4>Покупка любого тарифа со скидкой</h4>
+                            </div>
+                            <button class="pagecrm_subscription__btn">ЗАКАЗАТЬ <img src="img/subscription-arrow.svg"
+                                    alt="subscription-arrow"></button>
+                        </div>
+
+                        <div class="pagecrm_subscription__card">
+                            <div class="pagecrm_subscription__info">
+                                <h3>Подключение системы CRM + настройка</h3>
+                                <h4>от 15 000 ₽</h4>
+                            </div>
+                            <div class="pagecrm_subscription__subtitle">
+                                <div class="pagecrm_subscription__subtitle--first">
+                                    <img class="pagecrm_subscription__check" src="img/check.svg"
+                                        alt="subscription-check">
+                                    <img class="pagecrm_subscription__bg" src="img/check-shape.svg" alt="">
+                                    <h4>Покупка любого тарифа со скидкой</h4>
+                                </div>
+
+
                             </div>
                             <button class="pagecrm_subscription__btn">ЗАКАЗАТЬ <img src="img/subscription-arrow.svg"
                                     alt="subscription-arrow"></button>
@@ -333,6 +353,13 @@
 
         </section>
         <!-- Footer section closed -->
+
+
+
+
+
+
+
     </div>
 
 
