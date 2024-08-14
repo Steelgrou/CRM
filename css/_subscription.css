@@ -85,6 +85,11 @@
     transform: translateX(-20%) translateY(-10%);
 }
 
+.pagecrm_subscription__button {
+    display: flex;
+    justify-content: center;
+}
+
 .pagecrm_subscription__btn {
     background-color: #0c0239;
     border: none;
@@ -92,7 +97,7 @@
     padding: 20px 48px;
     border-radius: 10px;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
